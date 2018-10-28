@@ -4,7 +4,7 @@
   
     <section class="panel panel-default"  style=" background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); background-color:#00b1f4 ; "  >
       
-      <div class="panel-body"> 
+      
         <div id="myCarousel" class="carousel slide" data-ride="carousel" >
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -14,10 +14,12 @@
           </ol>
 
           <!-- Wrapper for slides -->
+        
         <center>
-          <div class="carousel-inner" style="opacity:1;"  >
+          <div class="carousel-inner" style="opacity:1; max-width:400px; height:400px;"  >
             <div class="item active">
-              <img src="<?=base_url("/assets/image/logouinjkt2.png")?>" style="  max-width:400px; max-height:400px;" >
+
+              <img class="img-responsive" src="<?=base_url("/assets/image/logouinjkt2.png")?>"  >
             
               <div class="carousel-caption" >
                 <h3>haseme</h3>
@@ -27,7 +29,7 @@
             </div>
 
             <div class="item">
-              <img src="<?=base_url("/assets/image/naga.png"); ?>" style="max-width:400px; max-height:400px;" >
+              <img class="img-responsive"  src="<?=base_url("/assets/image/naga.png"); ?>" >
             
               <div class="carousel-caption">
                   <h3>Chicago</h3>
@@ -37,7 +39,7 @@
             </div>
 
             <div class="item">
-              <img src="<?=base_url("/assets/image/sqdtng3.png"); ?>" style="max-width:400px; max-height:400px;" >
+              <img class="img-responsive"  src="<?=base_url("/assets/image/sqdtng3.png"); ?>">
             
               <div class="carousel-caption">
                 <h3>vajnoqjnh</h3>
@@ -51,7 +53,7 @@
           </div>
         </center>
 
-        </div>
+        
       </div>
     </section>
 
@@ -62,51 +64,54 @@
           <h1 style="margin-top:80px;"><strong>About Us</strong></h1>
             <p  style=" text-align:center; max-width: 700px;"> Kami adalah tim yang bergerak di bidang IT development. Terdiri dari mahasiswa-mahasiswa jurusan Teknik Informatika di UIN Jakarta. Dengan anda mempercayakan projek anda pada kami, anda telah membantu anak bangsa untuk berkembang dan siap di dunia kerja</p>
             <br>
-            <button class="btn btn-info btn-lg" href="#">Selengkapnya -></button>
+            <a class="btn btn-info btn-lg" href="#">Selengkapnya -></a>
         </center>
       </div>
     </section>
 
 
-    <section class="panel panel-default" style="height: 710px;" >
+    <section class="panel panel-default" style="background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); height: 710px;" >
       <div class="panel-body">
         <center>
           <h1><strong>What We Do?</strong></h1>
         </center>
           <br>
           <div class="col-sm-4"  >
-            <div class="table-responsive">
-              <table class="table table-bordered" border="2" width="300px">
-                <tr><th style="text-align:center;">Web Development</th></tr>
-                <tr><td style="text-align:center;"><p>Anda memiliki perusahaan? organisasi? komunitas? 
+           
+              <table class="table table-bordered" border="2" width="300px" style=" text-align:center; background-color: #f2f2f2; ">
+                <tr><th class="fab fa-php" style="font-size:250px;"></th></tr>
+                <tr><td><strong>Custom Web Development</strong></td></tr>
+                <tr><td><p>Anda memiliki perusahaan? organisasi? komunitas? 
                 atau toko yang perlu dibuatkan websitenya? Kami siap membantu anda
                  dengan harga yang sangat kekeluargaan</p> </td></tr> 
               </table>
-            </div>      
+                
           </div>
           
           <div class="col-sm-4"  >
-            <div class="table-responsive">
-              <table class="table table-bordered" border="2" width="300px">
-                <tr><th style="text-align:center;">Wordpress</th></tr>
-                <tr><td style="text-align:center;"><p>Anda memiliki perusahaan? organisasi? komunitas yang membutuhkan web profil? Kami siap membantu anda
+            
+              <table class="table table-bordered" border="2" width="300px" style=" text-align:center;  background-color: #f2f2f2; ">
+                <tr><th class="fab fa-wordpress" style="font-size:250px;"></th></tr>
+                <tr><td><strong> Wordpress</strong></td></tr>
+                <tr><td><p>Anda memiliki perusahaan? organisasi? komunitas yang membutuhkan web profil? Kami siap membantu anda
                  dengan harga yang sangat kekeluargaan</p> </td></tr> 
               </table>
-            </div>      
+                 
           </div>
 
           <div class="col-sm-4"  >
-            <div class="table-responsive">
-              <table class="table table-bordered" border="2" width="300px">
-                <tr><th style="text-align:center;">Desain Grafis</th></tr>
-                <tr><td style="text-align:center;"><p>Anda membutuhkan desain logo? desain web? Kami siap membantu anda
+            
+              <table class="table table-bordered" border="2" width="300px" style=" text-align:center;  background-color: #f2f2f2; ">
+                <tr><th class="fas fa-paint-brush" style="font-size: 250px;"</th></tr>
+                <tr><td><strong>Desain Grafis</strong></td></tr>
+                <tr><td ><p>Anda membutuhkan desain logo? desain web? Kami siap membantu anda
                  dengan harga yang sangat kekeluargaan</p> </td></tr> 
               </table>
-            </div>      
+                  
           </div>
       </section>
 
-      <section class="panel panel-body" style=" background-color:#ff3333; ">
+      <section class="panel panel-body" style="background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); background-color:#ff3333; ">
         <center>
           <h1 style="color:white;"><strong>Our Portofolio</strong></h1>
        
@@ -147,7 +152,7 @@
             </div>
          
        
-          <button class="btn btn-info btn-lg">Lihat Selengkapnya -></button>
+          <a class="btn btn-info btn-lg" href="#">Lihat Selengkapnya -></a>
         </center>
       </div>
     </section>
