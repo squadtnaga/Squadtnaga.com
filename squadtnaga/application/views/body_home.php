@@ -43,9 +43,7 @@
             
               <div class="carousel-caption">
                 <h3>vajnoqjnh</h3>
-                <p>adhvbauyvuayhejhva
-                  fafbdaadah
-                  abdakjhaudyhuafdhbah</p>
+                <p></p>
               </div>
             
             </div>
@@ -64,51 +62,90 @@
           <h1 style="margin-top:80px;"><strong>About Us</strong></h1>
             <p  style=" text-align:center; max-width: 700px;"> Kami adalah tim yang bergerak di bidang IT development. Terdiri dari mahasiswa-mahasiswa jurusan Teknik Informatika di UIN Jakarta. Dengan anda mempercayakan projek anda pada kami, anda telah membantu anak bangsa untuk berkembang dan siap di dunia kerja</p>
             <br>
-            <a class="btn btn-info btn-lg" href="#">Selengkapnya -></a>
+            <a class="btn btn-info btn-lg" href="<?= site_url('Homepage/AboutUs'); ?>">Selengkapnya -></a>
         </center>
       </div>
     </section>
 
 
-    <section class="panel panel-default" style="background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); height: 710px;" >
+    <section class="panel panel-default" style="background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); " >
       <div class="panel-body">
         <center>
           <h1><strong>What We Do?</strong></h1>
         </center>
           <br>
-          <div class="col-sm-4"  >
-           
-              <table class="table table-bordered" border="2" width="300px" style=" text-align:center; background-color: #f2f2f2; ">
-                <tr><th class="fab fa-php" style="font-size:250px;"></th></tr>
-                <tr><td><strong>Custom Web Development</strong></td></tr>
-                <tr><td><p>Anda memiliki perusahaan? organisasi? komunitas? 
-                atau toko yang perlu dibuatkan websitenya? Kami siap membantu anda
-                 dengan harga yang sangat kekeluargaan</p> </td></tr> 
-              </table>
+          <div class="row">
+            <div class="col-sm-4"  >
+              <div class="panel-body" style="height:200px; text-align:center; background-color: #f2f2f2;">
+                <div class="row" > 
+                  Logo
+                </div>
                 
-          </div>
-          
-          <div class="col-sm-4"  >
+                <div class="row" > 
+                  <strong>Custom Web Development</strong>
+                </div>
+                
+                <div class="row" border="2" >   
+                  <p>Anda memiliki perusahaan? organisasi? komunitas? 
+                  atau toko yang perlu dibuatkan websitenya? Kami siap membantu anda
+                  dengan harga yang sangat kekeluargaan</p>   
+                </div>
+              </div>                 
+            </div>
             
-              <table class="table table-bordered" border="2" width="300px" style=" text-align:center;  background-color: #f2f2f2; ">
-                <tr><th class="fab fa-wordpress" style="font-size:250px;"></th></tr>
-                <tr><td><strong> Wordpress</strong></td></tr>
-                <tr><td><p>Anda memiliki perusahaan? organisasi? komunitas yang membutuhkan web profil? Kami siap membantu anda
-                 dengan harga yang sangat kekeluargaan</p> </td></tr> 
-              </table>
-                 
-          </div>
-
-          <div class="col-sm-4"  >
-            
-              <table class="table table-bordered" border="2" width="300px" style=" text-align:center;  background-color: #f2f2f2; ">
-                <tr><th class="fas fa-paint-brush" style="font-size: 250px;"</th></tr>
-                <tr><td><strong>Desain Grafis</strong></td></tr>
-                <tr><td ><p>Anda membutuhkan desain logo? desain web? Kami siap membantu anda
-                 dengan harga yang sangat kekeluargaan</p> </td></tr> 
-              </table>
+            <div class="col-sm-4"  >
+              <div class="panel-body" style="height:200px; text-align:center; background-color: #f2f2f2;">
+                <div class="row" > 
+                  Logo
+                </div>
                   
+                <div class="row"> 
+                  <strong> Wordpress</strong>
+                </div>
+                  
+                <div class="row"  border="2" > 
+                    <p>Anda memiliki perusahaan? organisasi? komunitas yang membutuhkan web profil? Kami siap membantu anda
+                     dengan harga yang sangat kekeluargaan</p> 
+                </div>  
+              </div>       
+            </div>
+
+            <div class="col-sm-4"  >
+              <div class="panel-body" style="height:200px; text-align:center; background-color: #f2f2f2;">
+                <div class="row" > 
+                  Logo
+                </div>
+                
+                <div class="row" > 
+                  <strong>Desain Grafis</strong>
+                </div>
+                
+                <div class="row"  border="2"  > 
+                  <p>Anda membutuhkan desain logo? desain web? Kami siap membantu anda
+                     dengan harga yang sangat kekeluargaanaaaaaaaaaaa
+                     aaaaaaa
+                     aaaaaaaaaaaaaaaaaaaaaaa
+                     aa
+                     aaaaa
+
+                     aaaaaaaaaaaaaaaaaaaaaaa
+                     aaa
+                     aaa
+                     aaaaaaaaaa
+                     aaaaaaaaaaaaaaaaaaaaaaa
+                     aaa
+                     aaaaaaa</p> 
+                </div> 
+              </div>       
+              </div>
           </div>
+          <div class="row">
+            <br><br>
+            <center>
+              <a class="btn btn-success" href="<?=site_url('Homepage/ContactUs')?>">Pesan Sekarang!</a>
+            </center>
+          </div>
+        </div>
       </section>
 
       <section class="panel panel-body" style="background: linear-gradient(to bottom, rgba(75,90,102,0.9) 0%, rgba(5,20,30,0.1) 100%); background-color:#ff3333; ">
@@ -154,7 +191,7 @@
        
           <a class="btn btn-info btn-lg" href="#">Lihat Selengkapnya -></a>
         </center>
-      </div>
+      
     </section>
 
 

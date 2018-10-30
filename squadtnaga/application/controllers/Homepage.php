@@ -79,54 +79,43 @@ class Homepage extends CI_Controller {
 		
 	}
 	
-
-
-	private function navloader($activemenu)
-	{
-		$this->load->model('Navigasi_Model');
-
-		if($this->session->userdata('logged')
-			&&$this->session->userdata('status')=='1')
-		{	
-			$data['allmenu'] = $this->Navigasi_Model->get_menu_admin();
-			$data['activemenu'] = $activemenu;
-			$this->load->view('template/navigasi',$data);
-
-		}
-
-		elseif($this->session->userdata('logged')
-			&&$this->session->userdata('status')=='2')
-		{
-			$data['allmenu'] = $this->Navigasi_Model->get_menu_operator();
-			$data['activemenu'] = $activemenu;
-			$this->load->view('template/navigasi',$data);
-		}
+	public function AboutUs()
+	{	
 		
-		elseif($this->session->userdata('logged')
-			&&$this->session->userdata('status')=='3')
-		{
-			$data['allmenu'] = $this->Navigasi_Model->get_menu_alumni();
-			$data['activemenu'] = $activemenu;
-			$this->load->view('template/navigasi',$data);
-		}
+
+		$this->load->view('template/header1');
 		
-		elseif($this->session->userdata('logged')
-			&&$this->session->userdata('status')=='4')
-		{
-			$data['allmenu'] = $this->Navigasi_Model->get_menu_maha();
-			$data['activemenu'] = $activemenu;
-			$this->load->view('template/navigasi',$data);
-		}
+		
+		$this->load->view('template/header2');
 
-		else
-		{
-			$data['allmenu'] = $this->Navigasi_Model->get_menu_guest();
-			$data['activemenu'] = $activemenu;
-			$this->load->view('template/navigasi',$data);
-		}
-
-
+		
+		//$this->load->view('template/breadcrumb');
+		//$this->load->view('header_home');
+		$this->load->view('body_about');
+		$this->load->view('template/footer');
+		
 	}
+
+		public function ContactUs()
+	{	
+		
+
+		$this->load->view('template/header1');
+		
+		
+		$this->load->view('template/header2');
+
+		
+		//$this->load->view('template/breadcrumb');
+		//$this->load->view('header_home');
+		$this->load->view('body_contact');
+		$this->load->view('template/footer');
+		
+	}
+	
+
+
+	
 	
 	
 
